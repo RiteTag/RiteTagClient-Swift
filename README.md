@@ -2,18 +2,18 @@
   <img src="Assets/icon.png?raw=true" alt="RiteTag"/>
 </p>
 
-# RiteTagClient-Swift
-RiteTag API Client for Mac OSX and iOS
+# RiteTag API Client - Swift
+RiteTag API Client for Mac OSX and iOS. Written entirely in Swift. Using OauthSwift and SwiftyJSON
 
-# Docs
+## Docs
 For information about the API endpoints and response format see:
 http://docs.ritetag.apiary.io/
 
-# Signup
+## Signup
 Resigter for a developer account and get your keys at:
 https://ritetag.com/developer/signup
 
-# Usage
+## Usage
 Initialiaze the client with your api keys
 ```
 var api = RiteTagSwiftClient(consumerKey: "", consumerSecret: "", accessToken: "", accessTokenSecret : "")
